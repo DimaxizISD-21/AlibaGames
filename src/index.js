@@ -1,10 +1,10 @@
-import "./sass/styles.scss";
+import './sass/styles.scss';
 
-const sum = (a, b) => a + b;
+// MENU
+const menu = document.getElementById('menu');
+const burgerBtn = document.getElementById('burger');
 
-const arr = ["a", "b", "c"];
-
-const newArr = [...arr, "d", "e"];
-
-console.log(sum(20, 50));
-console.log(newArr);
+burgerBtn.addEventListener('click', () => {
+	menu.classList.toggle('header__menu__active');
+	burgerBtn.classList.toggle('burger__active');
+});

@@ -1,16 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack</title>
-</head>
-<body>
-    <div class="container">
-        <h2>Hello</h2>
-        <img src="img/photo.jpg" alt="photo">
-        <!-- <div class="bg"></div> -->
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aliba Games</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__left">
+						<img src="img/Logo.svg" alt="logo" class="header__logo" />
+						<nav class="header__nav">
+							<li class="header__nav__item"><a href="#Games">Games</a></li>
+							<li class="header__nav__item"><a href="#News">News</a></li>
+							<li class="header__nav__item"><a href="#Shop">Shop</a></li>
+						</nav>
+					</div>
+					<div class="header__right">
+						<div class="header__btns">
+							<button class="header__btn">Login</button>
+							<button class="header__btn">Register</button>
+						</div>
+						<div class="header__languages">En</div>
+						<div class="burger" id="burger">
+							<div class="strip burger-strip-2">
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="header__menu" id="menu">
+				<div class="container">
+					<nav class="header__menu__nav">
+						<li class="header__menu__nav__item"><a href="#Games">Games</a></li>
+						<li class="header__menu__nav__item"><a href="#News">News</a></li>
+						<li class="header__menu__nav__item"><a href="#Shop">Shop</a></li>
+					</nav>
+					<div class="header__menu__btns">
+						<button class="header__menu__btn">Login</button>
+						<button class="header__menu__btn">Register</button>
+					</div>
+					<div class="header__menu__languages">En</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="slider">
+				<div class="slider__wrapper">
+					<div class="slider__inner">
+						<div class="slider__item">
+							<img src="img/slide.png" alt="slide-1" class="slider__img" />
+							<div class="slider__content">
+								<h1 class="slider__subtitle">New game here</h1>
+								<h2 class="slider__title">Ninja Crazy</h2>
+								<button class="slider__content__btn">Play Now</button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<img src="img/slide.png" alt="slide-1" class="slider__img" />
+							<div class="slider__content">
+								<h1 class="slider__subtitle">New game here</h1>
+								<h2 class="slider__title">Ninja Crazy</h2>
+								<button class="slider__content__btn">Play Now</button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<img src="img/slide.png" alt="slide-1" class="slider__img" />
+							<div class="slider__content">
+								<h1 class="slider__subtitle">New game here</h1>
+								<h2 class="slider__title">Ninja Crazy</h2>
+								<button class="slider__content__btn">Play Now</button>
+							</div>
+						</div>
+						<div class="slider__item">
+							<img src="img/slide.png" alt="slide-1" class="slider__img" />
+							<div class="slider__content">
+								<h1 class="slider__subtitle">New game here</h1>
+								<h2 class="slider__title">Ninja Crazy</h2>
+								<button class="slider__content__btn">Play Now</button>
+							</div>
+						</div>
+						<button class="slider__arrow">
+							<img src="img/arrow.png" alt="arrow" />
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="games">
+				<div class="container">
+					<div class="games__items">
+						<div class="games__item">
+							<img src="img/game-1.png" alt="game-1" class="games__img" />
+							<div class="games__content">
+								<h3 class="games__title">Ninja Crazy</h3>
+								<button class="games__content__btn">Play</button>
+							</div>
+						</div>
+						<div class="games__item">
+							<img src="img/game-2.png" alt="game-2" class="games__img" />
+							<div class="games__content">
+								<h3 class="games__title">Sweet Clash</h3>
+								<button class="games__content__btn">Play</button>
+							</div>
+						</div>
+						<div class="games__item">
+							<img src="img/game-3.png" alt="game-3" class="games__img" />
+							<div class="games__content">
+								<h3 class="games__title">My Pirate</h3>
+								<button class="games__content__btn">Play</button>
+							</div>
+						</div>
+						<div class="games__item">
+							<img src="img/game-4.png" alt="game-4" class="games__img" />
+							<div class="games__content">
+								<h3 class="games__title">Gods of Hentai</h3>
+								<button class="games__content__btn">Play</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
